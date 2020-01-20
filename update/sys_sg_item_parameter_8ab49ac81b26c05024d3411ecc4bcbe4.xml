@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>End User Project description</name>
+        <parent>86b49ac81b26c05024d3411ecc4bcbe3</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 04:25:11</sys_created_on>
+        <sys_id>8ab49ac81b26c05024d3411ecc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>End User Project description</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_8ab49ac81b26c05024d3411ecc4bcbe4</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-20 04:25:11</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

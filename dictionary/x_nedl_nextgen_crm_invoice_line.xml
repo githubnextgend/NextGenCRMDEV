@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Invoice Line" max_length="40" name="x_nedl_nextgen_crm_invoice_line" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Invoice" max_length="32" name="invoice" reference="x_nedl_nextgen_crm_invoice" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="invoice"/>
+        </index>
+    </element>
+</database>

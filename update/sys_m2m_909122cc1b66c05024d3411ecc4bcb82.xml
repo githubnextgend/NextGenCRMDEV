@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>sn_customerservice_case</from_table>
+        <m2m_from_field>case</m2m_from_field>
+        <m2m_from_label>End User Projects</m2m_from_label>
+        <m2m_table>x_nedl_nextgen_crm_m2m_end_user_projects_cases</m2m_table>
+        <m2m_to_field>end_user_project</m2m_to_field>
+        <m2m_to_label>Cases</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 05:21:42</sys_created_on>
+        <sys_id>909122cc1b66c05024d3411ecc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nedl_nextgen_crm_m2m_end_user_projects_cases</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_m2m_909122cc1b66c05024d3411ecc4bcb82</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-20 05:21:42</sys_updated_on>
+        <to_table>x_nedl_nextgen_crm_eup</to_table>
+    </sys_m2m>
+</record_update>

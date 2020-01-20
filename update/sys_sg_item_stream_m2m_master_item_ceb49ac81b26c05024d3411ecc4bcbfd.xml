@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Opportunity Item Stream">c2b49ac81b26c05024d3411ecc4bcbfd</item_stream>
+        <master_item display_value="Opportunity master_item">cab49ac81b26c05024d3411ecc4bcbfd</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 04:25:11</sys_created_on>
+        <sys_id>ceb49ac81b26c05024d3411ecc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_ceb49ac81b26c05024d3411ecc4bcbfd</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-20 04:25:11</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Invoice)">c6b4dac81b26c05024d3411ecc4bcb35</button>
+        <item_parameter display_value="Invoice cmdb_ci">4ab4dac81b26c05024d3411ecc4bcb34</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 04:25:12</sys_created_on>
+        <sys_id>82b4dac81b26c05024d3411ecc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ab4dac81b26c05024d3411ecc4bcb34</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_82b4dac81b26c05024d3411ecc4bcb45</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-20 04:25:12</sys_updated_on>
+        <ui_parameter display_value="Configuration item">82b4dac81b26c05024d3411ecc4bcb44</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9e10ae0c1b66c05024d3411ecc4bcb83" sys_domain="global" table="x_nedl_nextgen_crm_quote" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>cdc0228c1b66c05024d3411ecc4bcbd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>1</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>45c0228c1b66c05024d3411ecc4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity</element>
+            <position>2</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>c9c0228c1b66c05024d3411ecc4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity.end_user_project</element>
+            <position>3</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>41c0228c1b66c05024d3411ecc4bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>c5c0228c1b66c05024d3411ecc4bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>5</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>4dc0228c1b66c05024d3411ecc4bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>6</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>c1c0228c1b66c05024d3411ecc4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>49c0228c1b66c05024d3411ecc4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>cdc0228c1b66c05024d3411ecc4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>45c0228c1b66c05024d3411ecc4bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>10</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>c9c0228c1b66c05024d3411ecc4bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>41c0228c1b66c05024d3411ecc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>12</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>c5c0228c1b66c05024d3411ecc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>4dc0228c1b66c05024d3411ecc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>14</position>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:17:50</sys_created_on>
+            <sys_id>c1c0228c1b66c05024d3411ecc4bcbdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+            <sys_created_on>2020-01-20 05:14:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e10ae0c1b66c05024d3411ecc4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nedl_nextgen_crm_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_ui_section_9e10ae0c1b66c05024d3411ecc4bcb83</sys_update_name>
+            <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+            <sys_updated_on>2020-01-20 05:14:54</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

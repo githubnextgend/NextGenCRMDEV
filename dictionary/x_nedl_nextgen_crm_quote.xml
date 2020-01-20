@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Quote" max_length="40" name="x_nedl_nextgen_crm_quote" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Partner / Customer" max_length="32" name="account" reference="customer_account" type="reference"/>
+        <element attributes="encode_utf8=false" label="Opportunity" max_length="32" name="opportunity" reference="x_nedl_nextgen_crm_opportunity" type="reference"/>
+    </element>
+</database>

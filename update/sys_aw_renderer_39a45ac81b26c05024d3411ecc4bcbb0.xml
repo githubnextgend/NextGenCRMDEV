@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_renderer">
+    <sys_aw_renderer action="INSERT_OR_UPDATE">
+        <custom_renderer display_value="sn-component-catalog-item">4e118ce10f132300bb57f4a1ff767ee0</custom_renderer>
+        <custom_renderer_tag>sn-component-catalog-item</custom_renderer_tag>
+        <module_flag>false</module_flag>
+        <renderer_type>record</renderer_type>
+        <sys_class_name>sys_aw_renderer</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 04:24:54</sys_created_on>
+        <sys_id>39a45ac81b26c05024d3411ecc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_aw_renderer_39a45ac81b26c05024d3411ecc4bcbb0</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-20 04:24:54</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <workspace_config display_value="Nextgen CRM ">7f94da881b26c05024d3411ecc4bcb5a</workspace_config>
+        <workspace_module/>
+    </sys_aw_renderer>
+</record_update>

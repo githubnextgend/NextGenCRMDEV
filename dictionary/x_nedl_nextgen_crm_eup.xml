@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="End User Project" max_length="40" name="x_nedl_nextgen_crm_eup" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Customer" max_length="32" name="account" reference="customer_account" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+    </element>
+</database>

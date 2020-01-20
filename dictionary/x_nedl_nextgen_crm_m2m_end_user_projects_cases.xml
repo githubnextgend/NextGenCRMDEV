@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Nextgen Crm M2m End User Projects Cases" max_length="40" name="x_nedl_nextgen_crm_m2m_end_user_projects_cases" type="collection">
+        <element attributes="encode_utf8=false" label="Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
+        <element attributes="encode_utf8=false" label="End User Project" max_length="32" name="end_user_project" reference="x_nedl_nextgen_crm_eup" type="reference"/>
+        <index name="index">
+            <element name="case"/>
+        </index>
+        <index name="index2">
+            <element name="end_user_project"/>
+        </index>
+    </element>
+</database>

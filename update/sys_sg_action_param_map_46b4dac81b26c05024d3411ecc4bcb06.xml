@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Opportunity)">4ab4dac81b26c05024d3411ecc4bcb02</button>
+        <item_parameter display_value="Opportunity company">c2b4dac81b26c05024d3411ecc4bcb01</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 04:25:11</sys_created_on>
+        <sys_id>46b4dac81b26c05024d3411ecc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2b4dac81b26c05024d3411ecc4bcb01</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_46b4dac81b26c05024d3411ecc4bcb06</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-20 04:25:11</sys_updated_on>
+        <ui_parameter display_value="Company">46b4dac81b26c05024d3411ecc4bcb04</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

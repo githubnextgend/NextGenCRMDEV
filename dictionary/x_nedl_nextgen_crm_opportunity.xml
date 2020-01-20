@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Opportunity" max_length="40" name="x_nedl_nextgen_crm_opportunity" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Partner" max_length="32" name="account" reference="customer_account" reference_qual="partner=true^EQ" reference_qual_condition="partner=true^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="End user project" max_length="32" name="end_user_project" reference="x_nedl_nextgen_crm_eup" type="reference"/>
+    </element>
+</database>
