@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="notes" label="Notes" language="en" table="x_nedl_nextgen_crm_opportunity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <help/>
+            <hint/>
+            <label>Notes</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_opportunity</name>
+            <plural>Notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-21 03:44:07</sys_created_on>
+            <sys_id>dae493981b2a045024d3411ecc4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_x_nedl_nextgen_crm_opportunity_notes_en</sys_update_name>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-01-21 03:44:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

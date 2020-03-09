@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes" section_id="6b4ebebd1b9f4c101803ffbbdc4bcb2f" sys_domain="global" table="x_nedl_nextgen_crm_opportunity" version="3" view="case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 00:43:33</sys_created_on>
+            <sys_id>265e7ebd1b9f4c101803ffbbdc4bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_nedl_nextgen_crm_opportunity" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">6b4ebebd1b9f4c101803ffbbdc4bcb2f</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 00:43:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 00:43:33</sys_created_on>
+            <sys_id>aa5e7ebd1b9f4c101803ffbbdc4bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_nedl_nextgen_crm_opportunity" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">6b4ebebd1b9f4c101803ffbbdc4bcb2f</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 00:43:33</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_nedl_nextgen_crm_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 00:43:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b4ebebd1b9f4c101803ffbbdc4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_ui_section_6b4ebebd1b9f4c101803ffbbdc4bcb2f</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 00:43:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case" name="case">5a9b0b811b3d001024d3411ecc4bcb4d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

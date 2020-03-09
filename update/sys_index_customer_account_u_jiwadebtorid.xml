@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_jiwadebtorid</col_name_string>
+        <index_col_name element="u_jiwadebtorid" name="customer_account">d960cb871b5ecc1024d3411ecc4bcbad</index_col_name>
+        <logical_table_name>customer_account</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-03-06 01:06:48</sys_created_on>
+        <sys_id>ac702e7e1b5740501803ffbbdc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>customer_account</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_index_customer_account_u_jiwadebtorid</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-03-06 01:06:48</sys_updated_on>
+        <table display_value="Account" name="customer_account">052b4fc91bf9001024d3411ecc4bcb41</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

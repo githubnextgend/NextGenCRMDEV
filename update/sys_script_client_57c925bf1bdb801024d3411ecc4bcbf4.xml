@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>LoadOpportunityTotal-NextgenCRM</name>
+        <order/>
+        <script><![CDATA[function onLoad() {  
+
+   var gAjax = new GlideAjax('sn_customerservice.NGDUtilsAjax');
+        gAjax.addParam('sysparm_name', 'loadOpportunityTotal');
+        gAjax.addParam('sysparm_opp_sysid', g_form.getUniqueValue());
+        gAjax.getXML(getTotal);
+		alert('Sysid:'+g_form.getUniqueValue());
+
+}
+
+function getTotal(response) {
+    var responseObj = response.responseXML.documentElement.getAttribute("answer");
+	alert(responseObj);
+	
+	var jsonObject= JSON.parse(responseObj);
+
+		alert(jsonObject.sellTotal);
+	
+   g_form.setValue('total_value', jsonObject.sellTotal);
+   g_form.setValue('total_cost', jsonObject.costTotal);
+   g_form.setValue('margin_calulated', jsonObject.marginTotal);
+   g_form.setValue('margin', jsonObject.margin);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>prashanth.ganathe</sys_created_by>
+        <sys_created_on>2020-03-08 23:42:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57c925bf1bdb801024d3411ecc4bcbf4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LoadOpportunityTotal-NextgenCRM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_script_client_57c925bf1bdb801024d3411ecc4bcbf4</sys_update_name>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-03-09 00:24:55</sys_updated_on>
+        <table>x_nedl_nextgen_crm_opportunity</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

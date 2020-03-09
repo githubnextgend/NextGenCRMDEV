@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access/>
+        <access>public</access>
         <actions_access>true</actions_access>
         <alter_access>true</alter_access>
         <caller_access/>
@@ -25,14 +25,14 @@
         <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
         <sys_created_on>2020-01-20 04:21:28</sys_created_on>
         <sys_id>23d39a881b26c05024d3411ecc4bcb70</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Quote Line</sys_name>
         <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
         <sys_update_name>sys_db_object_23d39a881b26c05024d3411ecc4bcb70</sys_update_name>
-        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
-        <sys_updated_on>2020-01-20 04:21:28</sys_updated_on>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-03-03 05:56:21</sys_updated_on>
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>

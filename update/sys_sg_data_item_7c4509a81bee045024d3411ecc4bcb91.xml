@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>Customers</name>
+        <query_condition table="customer_account">customer=true<item endquery="false" field="customer" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-21 11:55:00</sys_created_on>
+        <sys_id>7c4509a81bee045024d3411ecc4bcb91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Customers</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_data_item_7c4509a81bee045024d3411ecc4bcb91</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-21 11:55:45</sys_updated_on>
+        <table>customer_account</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c4509a81bee045024d3411ecc4bcb91"/>
+</record_update>

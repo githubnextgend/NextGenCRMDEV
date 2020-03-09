@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="87c5aeea1b62c8501803ffbbdc4bcb13" sys_domain="global" table="x_nedl_nextgen_crm_quote" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-28 00:04:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7c5aeea1b62c8501803ffbbdc4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_quote" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">87c5aeea1b62c8501803ffbbdc4bcb13</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">9e10ae0c1b66c05024d3411ecc4bcb83</sys_ui_section>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-01-28 00:04:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-28 00:37:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f5d66221ba2c8501803ffbbdc4bcb54</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_quote" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">87c5aeea1b62c8501803ffbbdc4bcb13</sys_ui_form>
+            <sys_ui_section caption="Calculated Fileds" display_value="Calculated Fileds" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">f75d66221ba2c8501803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-04 00:32:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-28 00:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d89eaee21ba2c8501803ffbbdc4bcbae</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_quote" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">87c5aeea1b62c8501803ffbbdc4bcb13</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">949eaee21ba2c8501803ffbbdc4bcbac</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-04 00:32:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-02-20 00:23:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ac601461b0b00101803ffbbdc4bcb6b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_quote" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">87c5aeea1b62c8501803ffbbdc4bcb13</sys_ui_form>
+            <sys_ui_section caption="Metadata" display_value="Metadata" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="Default view">e6c685c21b0b00101803ffbbdc4bcb8f</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-04 00:32:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_nedl_nextgen_crm_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-28 00:04:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87c5aeea1b62c8501803ffbbdc4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nedl_nextgen_crm_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_87c5aeea1b62c8501803ffbbdc4bcb13</sys_update_name>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-01-28 00:04:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

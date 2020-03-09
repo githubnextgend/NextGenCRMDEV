@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="commentline" label="CommentLine" language="en" table="x_nedl_nextgen_crm_quote_line">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>commentline</element>
+            <help/>
+            <hint/>
+            <label>CommentLine</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote_line</name>
+            <plural>CommentLines</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-02-20 05:17:40</sys_created_on>
+            <sys_id>490ac2061b0f00101803ffbbdc4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CommentLine</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_x_nedl_nextgen_crm_quote_line_commentline_en</sys_update_name>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-02-20 05:17:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

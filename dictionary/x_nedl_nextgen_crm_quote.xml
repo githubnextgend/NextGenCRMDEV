@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Quote" max_length="40" name="x_nedl_nextgen_crm_quote" text_index="true" type="collection">
-        <element attributes="encode_utf8=false" label="Partner / Customer" max_length="32" name="account" reference="customer_account" type="reference"/>
+    <element audit="true" extends="task" label="Quote" max_length="40" name="x_nedl_nextgen_crm_quote" sizeclass="21" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Partner" max_length="32" name="account" reference="customer_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Manager Email" max_length="100" name="account_manager_email" type="string"/>
+        <element label="Account Manager Phone" max_length="40" name="account_manager_phone" type="phone_number_e164"/>
+        <element label="Approval Status" max_length="40" name="approval_status" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IsRecurring" max_length="40" name="billing_type" type="boolean">
+            <choice>
+                <element inactive_on_update="false" label="e_SalesQuoteBillWhenComplete" sequence="0" value="e_SalesQuoteBillWhenComplete"/>
+                <element inactive_on_update="false" label="e_SalesQuoteShipAndBill" sequence="0" value="e_SalesQuoteShipAndBill"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Buy Price" max_length="40" name="carttotalfx" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="EndUserProject2" max_length="32" name="enduserproject2" reference="x_nedl_nextgen_crm_eup" type="reference"/>
+        <element attributes="encode_utf8=false" label="End User" max_length="32" name="end_user" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End User ABN" max_length="100" name="end_user_abn" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ExpiryDate" max_length="40" name="expirydate" read_only="true" type="string"/>
+        <element label="GST" max_length="40" name="gst" read_only="true" type="float"/>
+        <element label="Include Buy Prices" max_length="40" name="include_buy_prices" type="boolean"/>
+        <element label="Primary Quote" max_length="40" name="include_opportunity_value" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="JIWAAccountNo- TBD" max_length="40" name="jiwaaccountid" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Jiwa Account No." max_length="40" name="jiwaacctno" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="JIWADebtorID TBD" max_length="40" name="jiwadebtorid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Jiwa System ID" max_length="40" name="jiwa_system_id" read_only="true" type="string"/>
+        <element label="Margin ($)" max_length="15" name="margin" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Margin (%)" max_length="40" name="margin_per" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nextgen Account Manager" max_length="40" name="nextgen_account_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
+        <element attributes="encode_utf8=false" label="OppEUP TBD" max_length="32" name="oppeup" reference="x_nedl_nextgen_crm_eup" type="reference"/>
         <element attributes="encode_utf8=false" label="Opportunity" max_length="32" name="opportunity" reference="x_nedl_nextgen_crm_opportunity" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner JIWA Account No" max_length="100" name="partner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner Address" max_length="1000" name="partner_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner Contact Name" max_length="100" name="partner_contact_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="JIWA Quote No." max_length="40" name="quoteid" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quote Description" max_length="1000" name="quote_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quote Expiry Date" max_length="40" name="quote_expiry_date" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Quote Lines" max_length="1024" name="quote_lines" reference="x_nedl_nextgen_crm_quote" type="glide_list"/>
+        <element label="Sell FX Rate" max_length="15" name="sellcurrencyrate" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sell Currency" max_length="40" name="sell_currency" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive_on_update="false" label="NZD" sequence="1" value="NZD"/>
+                <element inactive_on_update="false" label="USD" sequence="2" value="USD"/>
+                <element inactive_on_update="false" label="EUR" sequence="3" value="EUR"/>
+            </choice>
+        </element>
+        <element default="0" label="Sub Total" max_length="40" name="sub_total" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Terms and Conditions TBD" max_length="4000" name="terms_and_conditions" type="string"/>
+        <element default="0" label="Total" max_length="40" name="total" type="float"/>
+        <element label="Version" max_length="50" name="version" type="string"/>
     </element>
 </database>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sell_currency" table="x_nedl_nextgen_crm_quote" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sell_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AUD</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <sequence>0</sequence>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-03-05 02:04:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5124652e1bdf005024d3411ecc4bcb2b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-03-05 02:05:03</sys_updated_on>
+            <value>AUD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sell_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NZD</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <sequence>1</sequence>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-03-05 02:05:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea24e52e1bdf005024d3411ecc4bcbf6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-03-05 02:05:21</sys_updated_on>
+            <value>NZD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sell_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <sequence>2</sequence>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-03-05 02:05:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed34e5ea1bdf005024d3411ecc4bcbc4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-03-05 02:05:35</sys_updated_on>
+            <value>USD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sell_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EUR</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <sequence>3</sequence>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-03-05 02:05:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a44e52e1bdf005024d3411ecc4bcbf7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-03-05 02:05:48</sys_updated_on>
+            <value>EUR</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sell_currency</element>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-03-05 02:04:55</sys_created_on>
+            <sys_id>1224652e1bdf005024d3411ecc4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sell_currency</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_choice_x_nedl_nextgen_crm_quote_sell_currency</sys_update_name>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-03-05 02:04:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

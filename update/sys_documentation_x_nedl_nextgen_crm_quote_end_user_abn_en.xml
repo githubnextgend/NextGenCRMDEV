@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="end_user_abn" label="End User ABN" language="en" table="x_nedl_nextgen_crm_quote">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>end_user_abn</element>
+            <help/>
+            <hint/>
+            <label>End User ABN</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <plural>End User ABNs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-28 00:37:18</sys_created_on>
+            <sys_id>b54da6e21ba2c8501803ffbbdc4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>End User ABN</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_x_nedl_nextgen_crm_quote_end_user_abn_en</sys_update_name>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-01-28 00:37:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

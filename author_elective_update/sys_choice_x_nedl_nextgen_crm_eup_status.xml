@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_nedl_nextgen_crm_eup" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>0</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2474bd3a1bfa80101803ffbbdc4bcb0d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:27:52</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>projectOpen</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>0</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:27:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9985b5fa1bfa80101803ffbbdc4bcbe8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:28:34</sys_updated_on>
+            <value>Open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>0</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:28:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3a579fa1bfa80101803ffbbdc4bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:28:34</sys_updated_on>
+            <value>projectOpen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>1</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6474bd3a1bfa80101803ffbbdc4bcb0f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:27:52</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>projectClosed</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>1</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:27:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5585b5fa1bfa80101803ffbbdc4bcbea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:28:34</sys_updated_on>
+            <value>Closed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>1</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:28:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fa579fa1bfa80101803ffbbdc4bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:28:34</sys_updated_on>
+            <value>projectClosed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sequence>2</sequence>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2074bd3a1bfa80101803ffbbdc4bcb11</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:27:52</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 01:23:11</sys_created_on>
+            <sys_id>6c74bd3a1bfa80101803ffbbdc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_choice_x_nedl_nextgen_crm_eup_status</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:23:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

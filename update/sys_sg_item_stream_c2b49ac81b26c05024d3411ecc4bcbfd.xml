@@ -7,14 +7,14 @@
         <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
         <sys_created_on>2020-01-20 04:25:11</sys_created_on>
         <sys_id>c2b49ac81b26c05024d3411ecc4bcbfd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Opportunity Item Stream</sys_name>
         <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
         <sys_update_name>sys_sg_item_stream_c2b49ac81b26c05024d3411ecc4bcbfd</sys_update_name>
         <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
-        <sys_updated_on>2020-01-20 04:25:11</sys_updated_on>
-        <table/>
+        <sys_updated_on>2020-01-22 04:06:15</sys_updated_on>
+        <table>x_nedl_nextgen_crm_opportunity</table>
     </sys_sg_item_stream>
 </record_update>

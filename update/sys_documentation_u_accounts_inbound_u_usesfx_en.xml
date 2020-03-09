@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_usesfx" label="UsesFX" language="en" table="u_accounts_inbound">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_usesfx</element>
+            <help/>
+            <hint/>
+            <label>UsesFX</label>
+            <language>en</language>
+            <name>u_accounts_inbound</name>
+            <plural>UsesFXs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-05 23:57:16</sys_created_on>
+            <sys_id>bd801e3e1b1740501803ffbbdc4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UsesFX</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_u_accounts_inbound_u_usesfx_en</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-05 23:57:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

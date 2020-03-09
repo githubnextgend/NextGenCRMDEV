@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="product_description" label="Description" language="en" table="x_nedl_nextgen_crm_quote_line">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>product_description</element>
+            <help/>
+            <hint/>
+            <label>Description</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_quote_line</name>
+            <plural>Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-19 23:48:09</sys_created_on>
+            <sys_id>9a9e30421b0b001024d3411ecc4bcb9d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Description</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_x_nedl_nextgen_crm_quote_line_product_description_en</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-20 00:41:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher display_value="Nextgen CRM ">cab496c81b26c05024d3411ecc4bcbf1</applet_launcher>
+        <order>10</order>
+        <section display_value="Accounts">2ab6016c1bee045024d3411ecc4bcbfd</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-21 12:01:23</sys_created_on>
+        <sys_id>aeb6016c1bee045024d3411ecc4bcbff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_aeb6016c1bee045024d3411ecc4bcbff</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-21 12:01:28</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</application>
+        <file_path/>
+        <instance_id>13f26e7fdb2d80100ae3ac44d4961986</instance_id>
+        <instance_name>nextgendistributiondev</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_aeb6016c1bee045024d3411ecc4bcbff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="Nextgen CRM ">cab496c81b26c05024d3411ecc4bcbf1</applet_launcher><order>10</order><section display_value="Accounts">2ab6016c1bee045024d3411ecc4bcbfd</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by><sys_created_on>2020-01-21 12:01:23</sys_created_on><sys_id>aeb6016c1bee045024d3411ecc4bcbff</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package><sys_policy/><sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_aeb6016c1bee045024d3411ecc4bcbff</sys_update_name><sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by><sys_updated_on>2020-01-21 12:01:28</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>1876639484</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6b29e6c41ba6c05024d3411ecc4bcb68</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-21 12:01:28</sys_created_on>
+        <sys_id>ebb6816c1bee045024d3411ecc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc7fa9e4c0000001</sys_recorded_at>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-21 12:01:28</sys_updated_on>
+        <type>Applet Launcher Sections</type>
+        <update_guid>67b6816cb5ee0450ddf5d11eff19e863</update_guid>
+        <update_guid_history>67b6816cb5ee0450ddf5d11eff19e863:1876639484,22b6416cc9ee0450eedc133a0e0c7501:-752454117</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-21 12:03:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>babf5eb4179a41f891556c90e1a51de4</sys_id>
+        <sys_metadata>aeb6016c1bee045024d3411ecc4bcbff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_scope_delete display_value="">45f5fd47aa3b489285b1f3f5b47f7444</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_aeb6016c1bee045024d3411ecc4bcbff</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_aeb6016c1bee045024d3411ecc4bcbff">ebb6816c1bee045024d3411ecc4bcb63</sys_update_version>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-21 12:03:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

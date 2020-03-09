@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Opportunity" max_length="40" name="x_nedl_nextgen_crm_opportunity" text_index="true" type="collection">
-        <element attributes="encode_utf8=false" label="Partner" max_length="32" name="account" reference="customer_account" reference_qual="partner=true^EQ" reference_qual_condition="partner=true^EQ" type="reference"/>
-        <element attributes="encode_utf8=false" label="End user project" max_length="32" name="end_user_project" reference="x_nedl_nextgen_crm_eup" type="reference"/>
+    <element audit="true" extends="task" label="Opportunity" max_length="40" name="x_nedl_nextgen_crm_opportunity" sizeclass="67" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Related Partner" mandatory="true" max_length="32" name="account" reference="customer_account" reference_qual="partner=true^EQ" reference_qual_condition="partner=true^EQ" type="reference"/>
+        <element choice="3" default="1" label="Billing Periods" max_length="40" name="billing_periods" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="12" value="12"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Annual" label="Billing Period Type" max_length="40" name="billing_period_type" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Annual" sequence="0" value="Annual"/>
+                <element inactive_on_update="false" label="Monthly" sequence="1" value="Monthl"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category TBD" max_length="40" name="category" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Connection Location" max_length="40" name="connection_location" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Connection Type" max_length="40" name="connection_type" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="AUD" label="Cost Currency" max_length="40" name="cost_currency" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive_on_update="false" label="USD" sequence="1" value="USD"/>
+                <element inactive_on_update="false" label="NZD" sequence="2" value="NZD"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deal Reg ID" max_length="40" name="deal_reg_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Deal Reg Status" max_length="40" name="deal_reg_status" type="string">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="End User" max_length="32" name="end_user_customer" reference="customer_account" type="reference"/>
+        <element attributes="encode_utf8=false" label="End user project" max_length="32" name="end_user_project" reference="x_nedl_nextgen_crm_eup" reference_qual="javascript: &quot;end_user=&quot; + current.end_user_customer" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Date" max_length="40" name="expected_close_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Deal Reg Expiry Date" max_length="40" name="expiry_date" type="glide_date_time"/>
+        <element default="true" label="Forecast" max_length="40" name="forecast" type="boolean"/>
+        <element active="false" label="Is Primay Opportunity" max_length="40" name="isprimayopportunity" type="boolean"/>
+        <element label="Primary" max_length="40" name="is_primary_opportunity" type="boolean"/>
+        <element label="Margin (%)" max_length="40" name="margin" read_only="true" type="percent_complete"/>
+        <element label="Margin Total" max_length="40" name="margin_calulated" read_only="true" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="AUD" label="Margin Currency" max_length="40" name="margin_currency" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive_on_update="false" label="USD" sequence="1" value="USD"/>
+                <element inactive_on_update="false" label="NZD" sequence="2" value="NZD"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Nextgen Sales Rep" max_length="32" name="nextgen_sales_rep" reference="sc_cat_item_user_mtom" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Opportunity Engagement Type" max_length="40" name="opportunity_engagement_type" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Opportunity Status Reason TBD" max_length="1000" name="opportunity_status_reason" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="New Business" label="Opportunity Type" mandatory="true" max_length="40" name="opportunity_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New Business" sequence="0" value="New Business"/>
+                <element inactive_on_update="false" label="New Business Renewals" sequence="1" value="New Business Renewals"/>
+                <element inactive_on_update="false" label="Existing Business" sequence="2" value="Existing Business"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="owned_by" reference="sc_category_user_mtom" type="reference"/>
+        <element attributes="encode_utf8=false" label="Partner Contact Person" max_length="32" name="partner_contact_person" reference="customer_contact" reference_qual="javascript: &quot;account=&quot; + current.account" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="3" default="0" label="Probability" mandatory="true" max_length="15" name="probability" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0%" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="20%" sequence="1" value="20"/>
+                <element inactive_on_update="false" label="40%" sequence="2" value="40"/>
+                <element inactive_on_update="false" label="60%" sequence="3" value="60"/>
+                <element inactive_on_update="false" label="80%" sequence="4" value="80"/>
+                <element inactive_on_update="false" label="100%" sequence="5" value="100"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="AUD" label="Sell Currency" max_length="40" name="sell_currency" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive_on_update="false" label="USD" sequence="1" value="USD"/>
+                <element inactive_on_update="false" label="NZD" sequence="2" value="NSD"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Cost Total" max_length="15" name="total_cost" read_only="true" type="decimal"/>
+        <element label="Sell Total" max_length="15" name="total_value" read_only="true" type="decimal"/>
     </element>
 </database>

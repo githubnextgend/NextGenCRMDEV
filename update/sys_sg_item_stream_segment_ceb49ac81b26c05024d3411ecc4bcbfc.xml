@@ -3,7 +3,7 @@
         <interleave_order_direction>asc</interleave_order_direction>
         <name>Opportunity Item Stream Segment</name>
         <order>0</order>
-        <screen display_value="Opportunitys">ceb49ac81b26c05024d3411ecc4bcbfb</screen>
+        <screen display_value="Opportunities">ceb49ac81b26c05024d3411ecc4bcbfb</screen>
         <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
         <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
         <sys_created_on>2020-01-20 04:25:11</sys_created_on>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="status" label="Project Status" language="en" table="x_nedl_nextgen_crm_eup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <help/>
+            <hint/>
+            <label>Project Status</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <plural>Project Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-27 22:16:00</sys_created_on>
+            <sys_id>80fcc2ae1bee88501803ffbbdc4bcb3d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Project Status</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_x_nedl_nextgen_crm_eup_status_en</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:23:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

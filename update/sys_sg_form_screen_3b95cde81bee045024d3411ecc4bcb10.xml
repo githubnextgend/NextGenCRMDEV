@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <hide_filters>false</hide_filters>
+        <icon display_value="Case Icon">b395cde81bee045024d3411ecc4bcb0c</icon>
+        <item_view display_value="Case Header Item View">7795cde81bee045024d3411ecc4bcb0e</item_view>
+        <name>Open Case</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-21 11:56:34</sys_created_on>
+        <sys_id>3b95cde81bee045024d3411ecc4bcb10</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Open Case</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_form_screen_3b95cde81bee045024d3411ecc4bcb10</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-21 21:52:27</sys_updated_on>
+        <table>sn_customerservice_case</table>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b95cde81bee045024d3411ecc4bcb10"/>
+</record_update>

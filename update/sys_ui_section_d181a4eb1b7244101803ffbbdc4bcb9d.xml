@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="End User Project" section_id="d181a4eb1b7244101803ffbbdc4bcb9d" sys_domain="global" table="x_nedl_nextgen_crm_eup" version="3" view="case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_user</element>
+            <position>0</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>cac3246f1b7244101803ffbbdc4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_name</element>
+            <position>1</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>4ec3246f1b7244101803ffbbdc4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>cec3246f1b7244101803ffbbdc4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>3</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>42c3246f1b7244101803ffbbdc4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>4</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>c2c3246f1b7244101803ffbbdc4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>46c3246f1b7244101803ffbbdc4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:26:12</sys_created_on>
+            <sys_id>c6c3246f1b7244101803ffbbdc4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">d181a4eb1b7244101803ffbbdc4bcb9d</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:26:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>End User Project</caption>
+            <header>false</header>
+            <name>x_nedl_nextgen_crm_eup</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-12 03:16:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d181a4eb1b7244101803ffbbdc4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>End User Project</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_ui_section_d181a4eb1b7244101803ffbbdc4bcb9d</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-12 03:16:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case" name="case">5a9b0b811b3d001024d3411ecc4bcb4d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

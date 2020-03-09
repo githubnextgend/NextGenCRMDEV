@@ -9,7 +9,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Partner</column_label>
+        <column_label>Related Partner</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_nedl_nextgen_crm_opportunity</name>
         <next_element/>
@@ -51,14 +51,14 @@
         <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
         <sys_created_on>2020-01-20 05:13:04</sys_created_on>
         <sys_id>dfaf9a0c1b66c05024d3411ecc4bcb9a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Partner</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Related Partner</sys_name>
         <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
         <sys_update_name>sys_dictionary_x_nedl_nextgen_crm_opportunity_account</sys_update_name>
-        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
-        <sys_updated_on>2020-01-20 05:13:33</sys_updated_on>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-01-27 23:36:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

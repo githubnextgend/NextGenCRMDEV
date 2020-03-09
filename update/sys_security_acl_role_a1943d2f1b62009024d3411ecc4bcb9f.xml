@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Faraz@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-30 23:03:58</sys_created_on>
+        <sys_id>a1943d2f1b62009024d3411ecc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_nedl_nextgen_crm.eup_user</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_security_acl display_value="x_nedl_nextgen_crm_eup.description">f094716f1b62009024d3411ecc4bcbf7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a1943d2f1b62009024d3411ecc4bcb9f</sys_update_name>
+        <sys_updated_by>Faraz@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-30 23:03:58</sys_updated_on>
+        <sys_user_role display_value="x_nedl_nextgen_crm.eup_user" name="x_nedl_nextgen_crm.eup_user">2d099e001b66c05024d3411ecc4bcb26</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

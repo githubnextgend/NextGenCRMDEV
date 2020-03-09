@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="End User Project" max_length="40" name="x_nedl_nextgen_crm_eup" text_index="true" type="collection">
-        <element attributes="encode_utf8=false" label="Customer" max_length="32" name="account" reference="customer_account" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="End User Project" max_length="40" name="x_nedl_nextgen_crm_eup" sizeclass="73" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Vendor TBD" max_length="32" name="account" reference="customer_account" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+        <element label="Activities TBD" max_length="40" name="activities" type="journal_input"/>
+        <element attributes="encode_utf8=false" label="Related Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Project End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="End User" max_length="32" name="end_user" reference="customer_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Old System Name" max_length="100" name="old_system_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Related Partners - TBD" max_length="32" name="partners" reference="customer_account" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Project Name" mandatory="true" max_length="40" name="project_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="projectOpen" label="Project Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="projectOpen"/>
+                <element inactive="true" inactive_on_update="true" label="projectOpen" sequence="0" value="Open"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="projectClosed"/>
+                <element inactive="true" inactive_on_update="true" label="projectClosed" sequence="1" value="Closed"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Item" max_length="40" name="work_item" type="journal_input"/>
     </element>
 </database>

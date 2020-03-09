@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_nedl_nextgen_crm_config</description>
+        <name>x_nedl_nextgen_crm_config</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>prashanth.ganathe</sys_created_by>
+        <sys_created_on>2020-01-22 03:19:21</sys_created_on>
+        <sys_id>0dd8543c1b2e445024d3411ecc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nedl_nextgen_crm_config</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_security_acl_0dd8543c1b2e445024d3411ecc4bcb89</sys_update_name>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-01-22 03:19:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</application>
+        <file_path/>
+        <instance_id>13f26e7fdb2d80100ae3ac44d4961986</instance_id>
+        <instance_name>nextgendistributiondev</instance_name>
+        <name>sys_security_acl_0dd8543c1b2e445024d3411ecc4bcb89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_nedl_nextgen_crm_config</description><name>x_nedl_nextgen_crm_config</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>prashanth.ganathe</sys_created_by><sys_created_on>2020-01-22 03:19:21</sys_created_on><sys_id>0dd8543c1b2e445024d3411ecc4bcb89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_nedl_nextgen_crm_config</sys_name><sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package><sys_policy/><sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope><sys_update_name>sys_security_acl_0dd8543c1b2e445024d3411ecc4bcb89</sys_update_name><sys_updated_by>prashanth.ganathe</sys_updated_by><sys_updated_on>2020-01-22 03:19:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1306060468</payload_hash>
+        <record_name>x_nedl_nextgen_crm_config</record_name>
+        <reverted_from/>
+        <source>6b29e6c41ba6c05024d3411ecc4bcb68</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>prashanth.ganathe</sys_created_by>
+        <sys_created_on>2020-01-22 03:19:21</sys_created_on>
+        <sys_id>85d8543c1b2e445024d3411ecc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fcb42f7f80000001</sys_recorded_at>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-01-22 03:19:21</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>09d8543c4b2e4450c2e24d61b9c0908e</update_guid>
+        <update_guid_history>09d8543c4b2e4450c2e24d61b9c0908e:-1306060468</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>prashanth.ganathe</sys_created_by>
+        <sys_created_on>2020-01-22 03:36:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>78a6e6d3d183443cb21df52a77baa290</sys_id>
+        <sys_metadata>0dd8543c1b2e445024d3411ecc4bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nedl_nextgen_crm_config</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_parent display_value="">89d8543c1b2e445024d3411ecc4bcbc5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_scope_delete display_value="">45f5fd47aa3b489285b1f3f5b47f7444</sys_scope_delete>
+        <sys_update_name>sys_security_acl_0dd8543c1b2e445024d3411ecc4bcb89</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_0dd8543c1b2e445024d3411ecc4bcb89">85d8543c1b2e445024d3411ecc4bcb9b</sys_update_version>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-01-22 03:36:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

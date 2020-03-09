@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <last_registered_on>2020-02-04 08:22:36</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-20 18:08:17</sys_created_on>
+        <sys_id>0b11591c1bee80501803ffbbdc4bcb6d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>01CF05082DD714A02A910D2B43D4962513E321DD1477A37A219724F62FB3D209</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_0b11591c1bee80501803ffbbdc4bcb6d</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-02-04 08:23:44</sys_updated_on>
+        <sys_user_id display_value="Johnny Chong">9fc251761b9e4c101803ffbbdc4bcb12</sys_user_id>
+        <token>01CF05082DD714A02A910D2B43D4962513E321DD1477A37A219724F62FB3D209</token>
+    </sys_push_notif_app_install>
+</record_update>

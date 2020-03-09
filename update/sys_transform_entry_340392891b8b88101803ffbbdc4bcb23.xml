@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="DeliveryAddInBound">916bc01f1bf2041024d3411ecc4bcbfa</map>
+        <reference_value_field/>
+        <source_field>u_zip</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_nedl_nextgen_crm_deliveryaddinbound</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>prashanth.ganathe</sys_created_by>
+        <sys_created_on>2020-02-17 03:23:03</sys_created_on>
+        <sys_id>340392891b8b88101803ffbbdc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_zip</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_transform_entry_340392891b8b88101803ffbbdc4bcb23</sys_update_name>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-02-17 03:23:03</sys_updated_on>
+        <target_field>zip</target_field>
+        <target_table>cmn_location</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

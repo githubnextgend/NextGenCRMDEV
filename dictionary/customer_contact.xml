@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="sys_user" label="Contact" max_length="40" name="customer_contact" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="SugarAccountID" max_length="40" name="x_nedl_nextgen_crm_sugaraccountid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SugarPosition" max_length="100" name="x_nedl_nextgen_crm_sugarposition" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SugarTitle" max_length="100" name="x_nedl_nextgen_crm_sugartitle" type="string"/>
+    </element>
+</database>

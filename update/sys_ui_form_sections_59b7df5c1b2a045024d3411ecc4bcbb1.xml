@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="59b7df5c1b2a045024d3411ecc4bcbb1" sys_domain="global" table="x_nedl_nextgen_crm_eup" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-21 03:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5db7df5c1b2a045024d3411ecc4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_eup" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="Default view">59b7df5c1b2a045024d3411ecc4bcbb1</sys_ui_form>
+            <sys_ui_section caption="End User Project" display_value="End User Project" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="Default view">3ac5d24c1b26c05024d3411ecc4bcb4c</sys_ui_section>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-01-21 03:56:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-24 06:25:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8969b5d1b26085024d3411ecc4bcb16</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_eup" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="Default view">59b7df5c1b2a045024d3411ecc4bcbb1</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="Default view">4c969b5d1b26085024d3411ecc4bcb14</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:25:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-02-10 00:47:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b33cadbe1bba80101803ffbbdc4bcba1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_nedl_nextgen_crm_eup" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="Default view">59b7df5c1b2a045024d3411ecc4bcbb1</sys_ui_form>
+            <sys_ui_section caption="Meta" display_value="Meta" name="x_nedl_nextgen_crm_eup" sys_domain="global" view="Default view">fb3cadbe1bba80101803ffbbdc4bcb37</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-02-10 01:25:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_nedl_nextgen_crm_eup</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>prashanth.ganathe</sys_created_by>
+            <sys_created_on>2020-01-21 03:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59b7df5c1b2a045024d3411ecc4bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nedl_nextgen_crm_eup</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_59b7df5c1b2a045024d3411ecc4bcbb1</sys_update_name>
+            <sys_updated_by>prashanth.ganathe</sys_updated_by>
+            <sys_updated_on>2020-01-21 03:56:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

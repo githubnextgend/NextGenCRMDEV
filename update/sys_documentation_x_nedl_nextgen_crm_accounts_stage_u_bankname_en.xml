@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_bankname" label="BankName" language="en" table="x_nedl_nextgen_crm_accounts_stage">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_bankname</element>
+            <help/>
+            <hint/>
+            <label>BankName</label>
+            <language>en</language>
+            <name>x_nedl_nextgen_crm_accounts_stage</name>
+            <plural>BankNames</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-06 00:02:58</sys_created_on>
+            <sys_id>61d19abe1b1740501803ffbbdc4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BankName</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_x_nedl_nextgen_crm_accounts_stage_u_bankname_en</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-06 00:02:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

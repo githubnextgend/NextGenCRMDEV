@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">c6b49ac81b26c05024d3411ecc4bcbfc</embedded_screen>
-        <form display_value="Opportunity Form Screen">c2b49ac81b26c05024d3411ecc4bcbfc</form>
+        <form display_value="Opportunities">c2b49ac81b26c05024d3411ecc4bcbfc</form>
         <order>10</order>
         <sys_class_name>sys_sg_form_segment</sys_class_name>
         <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>

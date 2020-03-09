@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Quote Line" max_length="40" name="x_nedl_nextgen_crm_quote_line" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="encode_utf8=false" label="Quote" max_length="32" name="quote" reference="x_nedl_nextgen_crm_quote" type="reference"/>
+    <element attributes="hasLabels=true" label="Quote Line" max_length="40" name="x_nedl_nextgen_crm_quote_line" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Billing Term" max_length="40" name="billing_term" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="Monthly"/>
+            </choice>
+        </element>
+        <element label="CommentLine" max_length="40" name="commentline" read_only="true" type="boolean"/>
+        <element display="true" label="Ext. List Price" max_length="40" name="ext_list_price" read_only="true" type="float"/>
+        <element label="Ext. Price" max_length="40" name="ext_price" read_only="true" type="float"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Item Code (ProductList)" max_length="1024" name="item_code_productlist" read_only="true" reference="m2m_kb_ci" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Item Description" max_length="1000" name="item_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="JIWA Parent Quote" max_length="40" name="jiwa_parent_quote" type="string"/>
+        <element label="Line Number" max_length="15" name="line_number" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Line Type" max_length="40" name="line_type" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Commentline" sequence="0" value="Commentline"/>
+                <element inactive_on_update="false" label="Non-recurring" sequence="0" value="Non-recurring"/>
+                <element inactive_on_update="false" label="Productline" sequence="0" value="Productline"/>
+                <element inactive_on_update="false" label="Recurring" sequence="1" value="Recurring"/>
+                <element inactive_on_update="false" label="Comment" sequence="2" value="Comment"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="Product" max_length="32" name="product" reference="cmdb_model" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="product_description" read_only="true" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" read_only="true" type="integer"/>
+        <element attributes="encode_utf8=false" label="SNOW Quote No" max_length="32" name="quote" read_only="true" reference="x_nedl_nextgen_crm_quote" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Term" max_length="40" name="term" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Months" sequence="0" value="Months"/>
+            </choice>
+        </element>
+        <element label="Term quantity" max_length="40" name="term_quantity" read_only="true" type="integer"/>
+        <element label="Units Quantity" max_length="15" name="units_quantity" read_only="true" type="decimal"/>
+        <element label="Unit List Price" max_length="40" name="unit_list_price" read_only="true" type="float"/>
+        <element label="Unit Price" max_length="40" name="unit_price" read_only="true" type="float"/>
         <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
             <element name="quote"/>
         </index>
     </element>

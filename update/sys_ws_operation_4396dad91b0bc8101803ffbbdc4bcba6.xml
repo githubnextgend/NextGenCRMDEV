@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Jiwa_DeliveryAddressAdd</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+     gs.log("SREST: Jiwa_DeliveryAddressAdd: "+ JSON.stringify(request.body.data));
+    //var payload=  gs.info(request.body.dataString);
+    //var payloadJSON= JSON.parse(request.body.dataString);	
+    //var customHeader = request.getHeader('X-Custom');
+   // gs.log("From JIWA After New Account: " + JSON.stringify(request.body.data));	
+	//If the source of record change is from SNOW then do not modify the record again in SNOW
+	//if it is not from snow, then update the SNOW record and stop the chain in Business Rules in both in creation and update.
+	
+	var customJson= request.body.data.CustomFieldValues;
+	var srcOfChange="JIWA"; 	
+	gs.log("SREST: Jiwa_DeliveryAddressAdd: "+ 'Source of Change=' + srcOfChange);
+//	if(srcOfChange!="SNOW")
+	{
+
+    var jiwaAPI = new sn_ws.RESTMessageV2();
+    jiwaAPI.setEndpoint("https://nextgendistributiondev.service-now.com/api/now/table/x_nedl_nextgen_crm_deliveryaddinbound");
+	
+	gs.log("SREST: Jiwa_DeliveryAddressAdd: "+  "Username:"+ gs.getProperty("username")+" : "+ gs.getProperty("password"));
+    jiwaAPI.setBasicAuth("svc.nextgen", "se7!a1dwDIA!");
+    jiwaAPI.setHttpMethod('post');
+    jiwaAPI.setRequestHeader("Content-Type", "application/json");
+    jiwaAPI.setRequestHeader("Accept", "application/json");
+
+
+  
+    var requestBody = {
+				"u_account":"",
+				"u_primary": request.body.data.IsDefault,
+				// "DeliveryAddressID":request.body.data.DeliveryAddressID;
+				"u_name": request.body.data.DeliveryAddressName,
+				//u_DeliveryAddressCode":request.data.DeliveryAddressCode;
+				"u_street" :request.body.data.Address1,
+				"u_city" :request.body.data.Address2,
+				"u_state" :request.body.data.Address3,
+				//"Address4" :request.body.data.Address4,
+				"u_zip": request.body.data.Postcode,
+				"u_country" :request.body.data.Country
+				/*"Notes": "",
+				"CourierDetails": "",
+				"EDIStoreLocationCode": ""*/ };
+
+    var bodyString = JSON.stringify(requestBody);
+    gs.log("SREST: Jiwa_DeliveryAddressAdd: "+   bodyString);
+    jiwaAPI.setRequestBody(bodyString);
+    response = jiwaAPI.execute();
+
+    var responseBody = response.getBody();
+    gs.log("SREST: Jiwa_DeliveryAddressAdd: "+  JSON.stringify(responseBody));
+	}
+
+    /// save rest in snow
+
+})(request, response);
+]]></operation_script>
+        <operation_uri>/api/x_nedl_nextgen_crm/jiwa_deliveryaddressadd</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>prashanth.ganathe</sys_created_by>
+        <sys_created_on>2020-02-17 22:37:43</sys_created_on>
+        <sys_id>4396dad91b0bc8101803ffbbdc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jiwa_DeliveryAddressAdd</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_ws_operation_4396dad91b0bc8101803ffbbdc4bcba6</sys_update_name>
+        <sys_updated_by>prashanth.ganathe</sys_updated_by>
+        <sys_updated_on>2020-02-17 22:37:43</sys_updated_on>
+        <web_service_definition display_value="Jiwa_DeliveryAddressAdd">ed6656991b0bc8101803ffbbdc4bcb47</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

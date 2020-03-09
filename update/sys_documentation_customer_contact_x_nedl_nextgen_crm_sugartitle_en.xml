@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_nedl_nextgen_crm_sugartitle" label="SugarTitle" language="en" table="customer_contact">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_nedl_nextgen_crm_sugartitle</element>
+            <help/>
+            <hint/>
+            <label>SugarTitle</label>
+            <language>en</language>
+            <name>customer_contact</name>
+            <plural>SugarTitles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-05 05:19:56</sys_created_on>
+            <sys_id>7ac0522a1b9700501803ffbbdc4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SugarTitle</sys_name>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_documentation_customer_contact_x_nedl_nextgen_crm_sugartitle_en</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-05 05:19:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

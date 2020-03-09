@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon/>
+        <name>Customers Icon</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>johnny@tcloudconsulting.com.au</sys_created_by>
+        <sys_created_on>2020-01-21 11:55:20</sys_created_on>
+        <sys_id>f55549e81bee045024d3411ecc4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customers Icon</sys_name>
+        <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+        <sys_update_name>sys_sg_icon_f55549e81bee045024d3411ecc4bcbc5</sys_update_name>
+        <sys_updated_by>johnny@tcloudconsulting.com.au</sys_updated_by>
+        <sys_updated_on>2020-01-21 11:55:20</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

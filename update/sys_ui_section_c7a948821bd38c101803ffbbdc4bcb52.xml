@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c7a948821bd38c101803ffbbdc4bcb52" sys_domain="global" table="x_nedl_nextgen_crm_quote" version="3" view="case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>03a9c4c21bd38c101803ffbbdc4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>1</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>0fa9c4c21bd38c101803ffbbdc4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity</element>
+            <position>2</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>83a9c4c21bd38c101803ffbbdc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>3</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>0ba9c4c21bd38c101803ffbbdc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>8fa9c4c21bd38c101803ffbbdc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>5</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>07a9c4c21bd38c101803ffbbdc4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>include_buy_prices</element>
+            <position>6</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>8ba9c4c21bd38c101803ffbbdc4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>include_opportunity_value</element>
+            <position>7</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>03a9c4c21bd38c101803ffbbdc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>87a9c4c21bd38c101803ffbbdc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>9</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>0fa9c4c21bd38c101803ffbbdc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quote_status</element>
+            <position>10</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>83a9c4c21bd38c101803ffbbdc4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expirydate</element>
+            <position>11</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>0ba9c4c21bd38c101803ffbbdc4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>12</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>8fa9c4c21bd38c101803ffbbdc4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>13</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>07a9c4c21bd38c101803ffbbdc4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_status</element>
+            <position>14</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>8ba9c4c21bd38c101803ffbbdc4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>billing_type</element>
+            <position>15</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>03a9c4c21bd38c101803ffbbdc4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>version</element>
+            <position>16</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>87a9c4c21bd38c101803ffbbdc4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>jiwaaccountid</element>
+            <position>17</position>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_id>0fa9c4c21bd38c101803ffbbdc4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nedl_nextgen_crm_quote" sys_domain="global" view="5a9b0b811b3d001024d3411ecc4bcb4d">c7a948821bd38c101803ffbbdc4bcb52</sys_ui_section>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_nedl_nextgen_crm_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>luke.cunial</sys_created_by>
+            <sys_created_on>2020-03-03 06:12:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7a948821bd38c101803ffbbdc4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nedl_nextgen_crm_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nextgen CRM " source="x_nedl_nextgen_crm">b5d15a081b26c05024d3411ecc4bcbcf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nextgen CRM ">b5d15a081b26c05024d3411ecc4bcbcf</sys_scope>
+            <sys_update_name>sys_ui_section_c7a948821bd38c101803ffbbdc4bcb52</sys_update_name>
+            <sys_updated_by>luke.cunial</sys_updated_by>
+            <sys_updated_on>2020-03-03 06:12:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case" name="case">5a9b0b811b3d001024d3411ecc4bcb4d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
